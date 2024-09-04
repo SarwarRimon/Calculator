@@ -1,0 +1,62 @@
+.container{
+    text-align: center;
+    background-color: white;
+}
+#card{
+   border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(138, 197, 197);
+    height:400px;
+    width: 200px;
+}
+#display{
+    margin:0  auto;
+    height: 40px;
+    width: 200px;
+    background-color:#e0f1ec;
+    color: blue;
+    font-size:larger;
+    font-family:fantasy;
+    overflow-x:scroll;
+   
+}
+button{
+    padding: 13px;
+    background-color: blueviolet;
+    color: wheat;
+    border-radius: 5px;
+}
+#firststline{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#secondline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ #thirdline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ #fourthline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ #equal{
+    width: 40%;
+ }
+ #lastline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
